@@ -17,3 +17,17 @@
 # Author: Hunter Halloran (Jyumpp)
 
 import dynio.dynamixel_controller as dxl
+from dynio.dynamixel_controller import (
+    DynamixelIO,
+    DynamixelMotor,
+    control_table_path,
+)
+from dynio.group_io import DynamixelCommError
+
+__all__ = [
+    "DynamixelIO",
+    "DynamixelMotor",
+    "DynamixelCommError",
+    "control_table_path",
+    "dxl",
+]
