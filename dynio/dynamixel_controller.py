@@ -163,7 +163,13 @@ class DynamixelIO:
         return self.new_motor(
             dxl_id, pkg_resources.resource_filename(__name__, "DynamixelJSON/XM430W350T.json"), protocol, control_table_protocol
         )
-    
+
+    def new_xm540w270t(self, dxl_id, protocol=2, control_table_protocol=None):
+        """Returns a new DynamixelMotor object for an XM540-W270-T (Protocol 2)."""
+        return self.new_motor(
+            dxl_id, pkg_resources.resource_filename(__name__, "DynamixelJSON/XM540W270.json"), protocol, control_table_protocol
+        )
+
     def sync_read(self, motors, register_name, protocol=None):
         """Read the same register from multiple motors in one Sync Read (Protocol 2).
 

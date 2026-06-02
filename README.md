@@ -65,6 +65,7 @@ mx_64_2 = dxl_io.new_mx64(3, protocol=2)      # MX-64, Protocol 2
 xc330 = dxl_io.new_xc330m288t(4)
 xl430 = dxl_io.new_xl430w250t(5)
 xm430 = dxl_io.new_xm430w350t(6)
+xm540 = dxl_io.new_xm540w270t(7)
 ```
 
 Custom models can use any JSON control table:

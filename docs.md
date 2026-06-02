@@ -94,6 +94,12 @@ DynamixelIO.new_xm430w350t(dxl_id, protocol=2, control_table_protocol=None)
 ```
 Returns a new DynamixelMotor object for an XM430-W350-T (Protocol 2)
 
+### new_xm540w270t
+```python
+DynamixelIO.new_xm540w270t(dxl_id, protocol=2, control_table_protocol=None)
+```
+Returns a new DynamixelMotor object for an XM540-W270-T (Protocol 2)
+
 ### sync_read
 ```python
 DynamixelIO.sync_read(motors, register_name, protocol=None)
