@@ -63,6 +63,11 @@
       "Indirect_Address_1": [168, 2],
       "Indirect_Address_2": [170, 2],
       "Indirect_Address_3": [172, 2]
+    },
+    "Values": {
+      "Min_Position": 0,
+      "Max_Position": 4095,
+      "Max_Angle": 360
     }
   }
 }
